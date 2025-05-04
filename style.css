@@ -188,7 +188,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    opacity: 0.4; /* Lighter watermark effect */
+    opacity: 0.3; /* Lighter watermark effect */
     z-index: -2; /* Ensure the watermark stays behind content */
     pointer-events: none;
 }
@@ -466,7 +466,7 @@ body#message-page {
     display: block;
     margin: 15px auto; /* Center audio player */
   }
-}
+
 
 /* Button container */
 .button-container {
