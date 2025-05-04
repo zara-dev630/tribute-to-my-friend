@@ -429,13 +429,34 @@ body#message-page {
   -webkit-text-fill-color: transparent;
 }
 
-/* Adjustments for readability on mobile */
 @media (max-width: 768px) {
   body {
-    font-size: 18px; /* Bigger text on mobile */
-    line-height: 1.6; /* Easier to read */
     padding: 10px;
   }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  body nav ul {
+    display: flex;   /* <-- This line is important */
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .photo-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+}
 
   h1, h2, h3 {
     font-size: 22px; /* Bigger headings */
