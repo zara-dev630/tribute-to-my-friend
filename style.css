@@ -428,34 +428,30 @@ body#message-page {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/* Responsive adjustments for all pages */
+
+/* Adjustments for readability on mobile */
 @media (max-width: 768px) {
   body {
+    font-size: 18px; /* Bigger text on mobile */
+    line-height: 1.6; /* Easier to read */
     padding: 10px;
   }
 
-  header h1 {
-    font-size: 1.5rem;
+  h1, h2, h3 {
+    font-size: 22px; /* Bigger headings */
   }
 
-  nav ul {
-    flex-direction: column;
-    gap: 10px;
+  p {
+    font-size: 18px; /* Bigger paragraph text */
   }
 
-  .photo-gallery {
-    grid-template-columns: 1fr;
-  }
-
-  .cta-button {
-    padding: 10px 20px;
-    font-size: 14px;
-  }
-
-  footer p {
-    font-size: 14px;
+  audio {
+    width: 100%; /* Full width audio player */
+    display: block;
+    margin: 15px auto; /* Center audio player */
   }
 }
+
 /* Button container */
 .button-container {
   text-align: center;
