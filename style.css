@@ -116,7 +116,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center; /* Center the image */
     background-size: cover; /* Cover the whole area */
-    opacity: 0.4; /* Light watermark effect */
+    opacity: 0.5; /* Light watermark effect */
     z-index: -1;
     pointer-events: none;
   }
@@ -438,12 +438,6 @@ body#message-page {
     font-size: 1.5rem;
   }
 
-  body nav ul {
-    display: flex;   /* <-- This line is important */
-    flex-direction: column;
-    gap: 10px;
-  }
-
   .photo-gallery {
     grid-template-columns: 1fr;
   }
@@ -457,6 +451,7 @@ body#message-page {
     font-size: 14px;
   }
 }
+  
 
   h1, h2, h3 {
     font-size: 22px; /* Bigger headings */
