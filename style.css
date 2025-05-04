@@ -116,7 +116,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center; /* Center the image */
     background-size: cover; /* Cover the whole area */
-    opacity: 0.5; /* Light watermark effect */
+    opacity: 2; /* Light watermark effect */
     z-index: -1;
     pointer-events: none;
   }
@@ -188,7 +188,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    opacity: 0.3; /* Lighter watermark effect */
+    opacity: 0.4; /* Lighter watermark effect */
     z-index: -2; /* Ensure the watermark stays behind content */
     pointer-events: none;
 }
